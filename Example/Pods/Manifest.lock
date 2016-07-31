@@ -1,0 +1,16 @@
+PODS:
+  - AYDispatcher (0.1.0)
+
+DEPENDENCIES:
+  - AYDispatcher (from `../`)
+
+EXTERNAL SOURCES:
+  AYDispatcher:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AYDispatcher: 957cba5242b1f7a592885e7ddef3f4fcc27a8048
+
+PODFILE CHECKSUM: 089d9aca9b77c76e0821eb3334d693b25336b797
+
+COCOAPODS: 1.0.0

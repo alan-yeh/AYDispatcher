@@ -1,0 +1,6 @@
+framework module AYDispatcher {
+  umbrella header "AYDispatcher-umbrella.h"
+
+  export *
+  module * { export * }
+}
