@@ -5,24 +5,15 @@
 [![License](https://img.shields.io/cocoapods/l/AYDispatcher.svg?style=flat)](http://cocoapods.org/pods/AYDispatcher)
 [![Platform](https://img.shields.io/cocoapods/p/AYDispatcher.svg?style=flat)](http://cocoapods.org/pods/AYDispatcher)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-## Installation
-
-AYDispatcher is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+## 引用
+　　使用[CocoaPods](http://cocoapods.org)可以很方便地引入AYDispatcher。Podfile添加AYDispatcher的依赖。
 
 ```ruby
 pod "AYDispatcher"
 ```
 
-## Author
-
-Alan Yeh, alan@yerl.cn
+## 简介
+　　AYDispatcher用于解决在多模块开发时，接口调度的解决方案。详细使用方案可以查看Example示例。
 
 ## License
 
