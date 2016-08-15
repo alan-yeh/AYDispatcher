@@ -16,6 +16,22 @@
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uen-IW-oAq">
+                                <rect key="frame" x="52" y="160" width="160" height="30"/>
+                                <state key="normal" title="ModuleA doHomework"/>
+                                <connections>
+                                    <action selector="modulea_dohomework:" destination="whP-gf-Uak" eventType="touchUpInside" id="PJg-3o-YEQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iZS-Nc-YDz">
+                                <rect key="frame" x="52" y="223" width="160" height="30"/>
+                                <state key="normal" title="ModuleB doHomework"/>
+                                <connections>
+                                    <action selector="moduleb_dohomework:" destination="whP-gf-Uak" eventType="touchUpInside" id="xii-fo-WTm"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>

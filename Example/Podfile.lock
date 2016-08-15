@@ -1,16 +1,34 @@
 PODS:
-  - AYDispatcher (0.1.0)
+  - Api (0.1.0):
+    - AYDispatcher
+  - AYDispatcher (1.0.0)
+  - ModuleA (0.1.0):
+    - AYDispatcher
+  - ModuleB (0.1.0):
+    - AYDispatcher
 
 DEPENDENCIES:
+  - Api (from `Modules/Api`)
   - AYDispatcher (from `../`)
+  - ModuleA (from `Modules/ModuleA`)
+  - ModuleB (from `Modules/ModuleB`)
 
 EXTERNAL SOURCES:
+  Api:
+    :path: Modules/Api
   AYDispatcher:
-    :path: ../
+    :path: "../"
+  ModuleA:
+    :path: Modules/ModuleA
+  ModuleB:
+    :path: Modules/ModuleB
 
 SPEC CHECKSUMS:
-  AYDispatcher: 957cba5242b1f7a592885e7ddef3f4fcc27a8048
+  Api: a1c035f164a37938a58d9f110e426659a17cd36f
+  AYDispatcher: c2338eb4cf2d23def349c900093d798c845a31ef
+  ModuleA: dbca4194142ae53596586adafdf8ba90eb75cf2a
+  ModuleB: 2f159ef61667444254cd6080130527cacfb5f2cd
 
-PODFILE CHECKSUM: 089d9aca9b77c76e0821eb3334d693b25336b797
+PODFILE CHECKSUM: 0652598a422d0294485a4b8b3bd19b9a2b198e20
 
-COCOAPODS: 1.0.0
+COCOAPODS: 1.0.1

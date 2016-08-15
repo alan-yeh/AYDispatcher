@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0F7EC0C09EA31CDA30D58043 /* Pods_AYDispatcher_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7739E54BDD8445AE99D7E29 /* Pods_AYDispatcher_Example.framework */; };
-		5D72BBC51D4DF64F0002F6F6 /* AExecotor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D72BBBB1D4DF64F0002F6F6 /* AExecotor.m */; };
-		5D72BBC61D4DF64F0002F6F6 /* BExecotor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D72BBC01D4DF64F0002F6F6 /* BExecotor.m */; };
 		5D72BBC81D4DF87D0002F6F6 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D72BBC71D4DF87D0002F6F6 /* Launch Screen.storyboard */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -40,13 +38,6 @@
 
 /* Begin PBXFileReference section */
 		017B2F0A5C915FF2F3D0A154 /* AYDispatcher.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AYDispatcher.podspec; path = ../AYDispatcher.podspec; sourceTree = "<group>"; };
-		5D72BBBA1D4DF64F0002F6F6 /* AExecotor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AExecotor.h; sourceTree = "<group>"; };
-		5D72BBBB1D4DF64F0002F6F6 /* AExecotor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AExecotor.m; sourceTree = "<group>"; };
-		5D72BBBD1D4DF64F0002F6F6 /* AProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AProtocol.h; sourceTree = "<group>"; };
-		5D72BBBF1D4DF64F0002F6F6 /* BExecotor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BExecotor.h; sourceTree = "<group>"; };
-		5D72BBC01D4DF64F0002F6F6 /* BExecotor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BExecotor.m; sourceTree = "<group>"; };
-		5D72BBC21D4DF64F0002F6F6 /* BProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BProtocol.h; sourceTree = "<group>"; };
-		5D72BBC41D4DF64F0002F6F6 /* Protocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Protocols.h; sourceTree = "<group>"; };
 		5D72BBC71D4DF87D0002F6F6 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* AYDispatcher_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AYDispatcher_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -104,48 +95,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5D72BBB91D4DF64F0002F6F6 /* A-Module */ = {
-			isa = PBXGroup;
-			children = (
-				5D72BBBA1D4DF64F0002F6F6 /* AExecotor.h */,
-				5D72BBBB1D4DF64F0002F6F6 /* AExecotor.m */,
-			);
-			path = "A-Module";
-			sourceTree = "<group>";
-		};
-		5D72BBBC1D4DF64F0002F6F6 /* A-Protocol */ = {
-			isa = PBXGroup;
-			children = (
-				5D72BBBD1D4DF64F0002F6F6 /* AProtocol.h */,
-			);
-			path = "A-Protocol";
-			sourceTree = "<group>";
-		};
-		5D72BBBE1D4DF64F0002F6F6 /* B-Module */ = {
-			isa = PBXGroup;
-			children = (
-				5D72BBBF1D4DF64F0002F6F6 /* BExecotor.h */,
-				5D72BBC01D4DF64F0002F6F6 /* BExecotor.m */,
-			);
-			path = "B-Module";
-			sourceTree = "<group>";
-		};
-		5D72BBC11D4DF64F0002F6F6 /* B-Protocol */ = {
-			isa = PBXGroup;
-			children = (
-				5D72BBC21D4DF64F0002F6F6 /* BProtocol.h */,
-			);
-			path = "B-Protocol";
-			sourceTree = "<group>";
-		};
-		5D72BBC31D4DF64F0002F6F6 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				5D72BBC41D4DF64F0002F6F6 /* Protocols.h */,
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -210,11 +159,6 @@
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				5D72BBB91D4DF64F0002F6F6 /* A-Module */,
-				5D72BBBC1D4DF64F0002F6F6 /* A-Protocol */,
-				5D72BBBE1D4DF64F0002F6F6 /* B-Module */,
-				5D72BBC11D4DF64F0002F6F6 /* B-Protocol */,
-				5D72BBC31D4DF64F0002F6F6 /* Protocols */,
 				6003F5BB195388D20070C39A /* Tests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
@@ -259,12 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "AYDispatcher_Example" */;
 			buildPhases = (
-				DC35DE448019AF0E1A269A6E /* 📦 Check Pods Manifest.lock */,
+				DC35DE448019AF0E1A269A6E /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				7D318B2B9297178EA2222C37 /* 📦 Embed Pods Frameworks */,
-				7804613E06C780925D1EBEDA /* 📦 Copy Pods Resources */,
+				7D318B2B9297178EA2222C37 /* [CP] Embed Pods Frameworks */,
+				7804613E06C780925D1EBEDA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -279,12 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "AYDispatcher_Tests" */;
 			buildPhases = (
-				6266E12E0BAB40E3DE4D232A /* 📦 Check Pods Manifest.lock */,
+				6266E12E0BAB40E3DE4D232A /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				D5CC00918CAC6C2A490B772B /* 📦 Embed Pods Frameworks */,
-				5278DEE7472735ECF43D7D44 /* 📦 Copy Pods Resources */,
+				D5CC00918CAC6C2A490B772B /* [CP] Embed Pods Frameworks */,
+				5278DEE7472735ECF43D7D44 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -353,14 +297,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5278DEE7472735ECF43D7D44 /* 📦 Copy Pods Resources */ = {
+		5278DEE7472735ECF43D7D44 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,14 +312,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AYDispatcher_Tests/Pods-AYDispatcher_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6266E12E0BAB40E3DE4D232A /* 📦 Check Pods Manifest.lock */ = {
+		6266E12E0BAB40E3DE4D232A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,14 +327,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		7804613E06C780925D1EBEDA /* 📦 Copy Pods Resources */ = {
+		7804613E06C780925D1EBEDA /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,14 +342,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AYDispatcher_Example/Pods-AYDispatcher_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7D318B2B9297178EA2222C37 /* 📦 Embed Pods Frameworks */ = {
+		7D318B2B9297178EA2222C37 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,14 +357,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AYDispatcher_Example/Pods-AYDispatcher_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D5CC00918CAC6C2A490B772B /* 📦 Embed Pods Frameworks */ = {
+		D5CC00918CAC6C2A490B772B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,14 +372,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AYDispatcher_Tests/Pods-AYDispatcher_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DC35DE448019AF0E1A269A6E /* 📦 Check Pods Manifest.lock */ = {
+		DC35DE448019AF0E1A269A6E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,8 +394,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D72BBC51D4DF64F0002F6F6 /* AExecotor.m in Sources */,
-				5D72BBC61D4DF64F0002F6F6 /* BExecotor.m in Sources */,
 				6003F59E195388D20070C39A /* AYAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* AYViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

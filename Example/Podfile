@@ -2,10 +2,13 @@ use_frameworks!
 
 target 'AYDispatcher_Example' do
   pod 'AYDispatcher', :path => '../'
+  pod 'Api', :path => 'Modules/Api'
+  pod 'ModuleA', :path => 'Modules/ModuleA'
+  pod ‘ModuleB', :path => 'Modules/ModuleB'
 
   target 'AYDispatcher_Tests' do
     inherit! :search_paths
 
-    
+
   end
 end

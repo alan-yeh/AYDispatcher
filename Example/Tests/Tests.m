@@ -7,8 +7,8 @@
 //
 
 @import XCTest;
-#import "AProtocol.h"
-#import "BProtocol.h"
+#import <Api/ModuleA_Api.h>
+#import <Api/ModuleB_Api.h>
 
 @interface Tests : XCTestCase
 
@@ -28,14 +28,14 @@
     [super tearDown];
 }
 
-- (void)testCallBModule{
-    NSString *result = [[AYDispatcher dispatcher] doBHomework];
-    XCTAssert([result isEqualToString:@"B"]);
+- (void)testCallAModule{
+    NSString *result = [[AYDispatcher dispatcher] A_doHomework];
+    XCTAssert([result isEqualToString:@"A completed homework"]);
 }
 
-- (void)testCallAModule{
-    NSString *result = [[AYDispatcher dispatcher] doAHomework];
-    XCTAssert([result isEqualToString:@"A"]);
+- (void)testCallBModule{
+    NSString *result = [[AYDispatcher dispatcher] B_doHomework];
+    XCTAssert([result isEqualToString:@"B completed homework"]);
 }
 
 @end

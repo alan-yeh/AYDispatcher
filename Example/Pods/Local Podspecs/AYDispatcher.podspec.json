@@ -1,9 +1,8 @@
 {
   "name": "AYDispatcher",
-  "version": "0.1.0",
-  "summary": "A short description of AYDispatcher.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/AYDispatcher",
+  "version": "1.0.0",
+  "summary": "Dispatcher for modular development.",
+  "homepage": "https://github.com/alan-yeh/AYDispatcher",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +11,12 @@
     "Alan Yeh": "alan@yerl.cn"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/AYDispatcher.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/alan-yeh/AYDispatcher.git",
+    "tag": "1.0.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "6.0"
   },
-  "source_files": "AYDispatcher/Classes/**/*"
+  "source_files": "AYDispatcher/Classes/**/*",
+  "public_header_files": "AYDispatcher/Classes/**/*.h"
 }

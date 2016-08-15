@@ -85,7 +85,11 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/AYDispatcher/AYDispatcher.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/ModuleA/ModuleA.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/ModuleB/ModuleB.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/AYDispatcher/AYDispatcher.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/ModuleA/ModuleA.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/ModuleB/ModuleB.framework"
 fi
