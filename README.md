@@ -28,11 +28,11 @@ Example
 ```
 
 - Api存放ModuleA和ModuleB需要对外暴露的接口
-- ModuleA和ModuleB完全不暴露任何头文件，实现Api上对外爆露的接口
+- ModuleA和ModuleB完全不暴露任何头文件，但实现Api上对外暴露的接口
 - Example引用ModuleA、ModuleB、Api，只可以使用Api中的内容（因为ModuleA和ModuleB没有暴露头文件）
 
 ### AYDispatcher作用
-　　在这种结构下，各个模块几乎彻底隔离开发，因此不需要再关注子模块的实现细节。由于现在仅暴露了Api的接口，并没有暴露接口的实现，模块间如果存在互相调用的话，也会带来引用的问题。为了简化种模块之间的调用问题，可以使用AYDispatcher可以轻松解耦。
+　　在这种结构下，各个模块几乎彻底隔离开发，因此不需要再关注子模块的实现细节。由于现在仅暴露了Api的接口，并没有暴露接口的实现，模块间如果存在互相调用的话，也会带来引用的问题。为了简化种模块之间的调用问题，可以使用AYDispatcher轻松解耦。
 
 ## License
 
